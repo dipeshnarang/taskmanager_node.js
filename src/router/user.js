@@ -52,7 +52,7 @@ const avatar=multer({
         }
         cb(undefined , true)
 
-    }
+    } 
 })
 
 

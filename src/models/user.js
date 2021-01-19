@@ -95,6 +95,7 @@ userSchema.statics.findByCredentials = async (email ,password)=>
 
 }
 
+
 userSchema.methods.toJSON= function ()
 {
     const user=this
