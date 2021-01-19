@@ -65,7 +65,7 @@ router.get('/tasks',auth ,async (req,res) =>
             }
                 }).execPopulate()
 
-        res.send(req.user)
+        res.send(req.user.tasks)
         // const tasks=await Task.find({owner:req.user._id})
         // res.status(300).send(tasks)
     }
